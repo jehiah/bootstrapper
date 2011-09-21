@@ -1,0 +1,15 @@
+install chrome
+	setup w/ sync
+install adium
+install dropbox
+install virtualbox
+install daily_photo
+install logKext
+	http://code.google.com/r/jehiah-logkext/source/checkout
+	hg clone https://jehiah@code.google.com/r/jehiah-logkext/ 
+
+ipsecuritas
+	http://www.lobotomo.com/products/IPSecuritas/beta.html
+	
+Transmission
+
