@@ -15,4 +15,7 @@ if ! egrep -q 'histappend' ~/.bash_profile; then
 fi
 
 mkdir -p ~/bin
-echo 'export PATH="/Users/$USER/bin:$PATH"' >> ~/bash_profile
+echo 'export PATH="/Users/$USER/bin:$PATH"' >> ~/.bash_profile
+
+sudo brew install gnu-sed
+echo 'alias sed=/usr/local/bin/gsed' >> ~/.bash_profile
